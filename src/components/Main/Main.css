@@ -12,3 +12,14 @@
 	flex-direction: row;
 	justify-content: space-between;
 }
+@media screen and (max-width: 900px) {
+	.app__cards {
+		justify-content: space-evenly;
+		margin-top: 20px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.app__form {
+		flex-direction: column;
+	}
+}

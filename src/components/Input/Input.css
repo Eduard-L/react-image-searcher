@@ -1,8 +1,31 @@
+@font-face {
+	font-family: "Inter";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../../font/Inter__Web/Inter-Regular.woff2") format("woff2"),
+		url("../../font/Inter__Web/Inter-Regular.woff") format("woff");
+}
 .app__input {
 	min-height: 50px;
 	width: 90%;
 	padding: 0px;
-	min-width: 320px;
+	min-width: 200px;
 	max-width: 687px;
 	margin-right: 5px;
+	font-family: "Inter", sans-serif;
+	font-style: italic;
+	font-size: 20px;
+	border-radius: 10px;
+}
+.app__input:focus {
+	border-style: dashed;
+}
+@media screen and (max-width: 500px) {
+	.app__input {
+		margin-right: 0px;
+		width: 100%;
+		font-size: 15px;
+		min-height: 40px;
+	}
 }

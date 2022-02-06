@@ -1,7 +1,7 @@
 
 import './App.css';
 
-import api from './api/api'
+import api from '../utils/api/api'
 import { useEffect, useState } from 'react'
 import { Main } from './Main/Main';
 

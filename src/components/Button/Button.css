@@ -1,6 +1,23 @@
 .app__button {
-	background-color: black;
-	color: white;
+	background-color: rgb(218, 54, 155);
+	color: rgb(247, 236, 236);
 	min-width: 171px;
 	min-height: 50px;
+	font-size: 20px;
+	border-radius: 10px;
+	border-style: none;
+	opacity: 0.7;
+	transition: opacity .5s ease;
+}
+.app__button:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+@media screen and (max-width: 500px) {
+	.app__button {
+		margin-top: 20px;
+		max-width: 100px;
+		align-self: center;
+		min-height: 40px;
+	}
 }

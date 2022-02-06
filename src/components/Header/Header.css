@@ -1,0 +1,27 @@
+@font-face {
+	font-family: '3D-LET-BRK';
+	src: url('../../font/3D-LET-BRK.ttf.woff') format('woff');
+}
+
+.app__title {
+	text-align: center;
+	margin-bottom: 60px;
+	font-size: 80px;
+	margin-top: 0px;
+	font-family: '3D-LET-BRK', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: rgb(255, 80, 197);
+	box-shadow: 0px 0px 50px 5px;
+	border-radius: 20px;
+}
+@media screen and (max-width: 500px) {
+	.app__title {
+		font-size: 60px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.app__title {
+		font-size: 50px;
+	}
+}
