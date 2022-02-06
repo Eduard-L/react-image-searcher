@@ -1,0 +1,6 @@
+.app__button {
+	background-color: black;
+	color: white;
+	min-width: 171px;
+	min-height: 50px;
+}

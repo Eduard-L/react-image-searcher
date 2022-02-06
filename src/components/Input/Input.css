@@ -1,0 +1,8 @@
+.app__input {
+	min-height: 50px;
+	width: 90%;
+	padding: 0px;
+	min-width: 320px;
+	max-width: 687px;
+	margin-right: 5px;
+}
