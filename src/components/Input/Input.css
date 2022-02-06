@@ -7,15 +7,21 @@
 		url("../../font/Inter__Web/Inter-Regular.woff") format("woff");
 }
 .app__input {
+	box-sizing: border-box;
+	background-image: url(../../images/search-1491.svg);
+	background-size: 40px;
+	background-position: left;
+	padding-left: 45px;
+	background-repeat: no-repeat;
 	min-height: 50px;
 	width: 90%;
-	padding: 0px;
+
 	min-width: 200px;
 	max-width: 687px;
 	margin-right: 5px;
 	font-family: "Inter", sans-serif;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 15px;
 	border-radius: 10px;
 }
 .app__input:focus {

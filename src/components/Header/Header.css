@@ -20,7 +20,7 @@
 		font-size: 60px;
 	}
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 350px) {
 	.app__title {
 		font-size: 50px;
 	}
