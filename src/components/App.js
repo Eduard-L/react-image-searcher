@@ -52,8 +52,8 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/' element={<Main cards={cards} isLoading={isLoading} value={value} onChange={setValue} onSubmit={handleSubmit} />} />
-        <Route path='/photos/:id' element={<Photo photos={cards} />} />
+        <Route path='https://eduard-l.github.io/react-image-searcher/' element={<Main cards={cards} isLoading={isLoading} value={value} onChange={setValue} onSubmit={handleSubmit} />} />
+        <Route path='https://eduard-l.github.io/react-image-searcher/photos/:id' element={<Photo photos={cards} />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
