@@ -1,8 +1,8 @@
 import './Button.css'
 
-export function Button({ text, onClick }) {
+export function Button({ text, ...props }) {
     return (
 
-        <button onClick={onClick} className='app__button' type="submit">{text}  </button>
+        <button {...props} className='app__button' >{text} </button>
     )
 }

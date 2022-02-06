@@ -4,6 +4,9 @@ import './App.css';
 import api from '../utils/api/api'
 import { useEffect, useState } from 'react'
 import { Main } from './Main/Main';
+import { Routes, Route } from 'react-router-dom'
+import { Photo } from './Photo/Photo'
+import { NotFound } from './NotFound/NotFound'
 
 
 
@@ -48,7 +51,11 @@ function App() {
 
   return (
     <div className="App">
-      <Main cards={cards} isLoading={isLoading} value={value} onChange={setValue} onSubmit={handleSubmit} />
+      <Routes>
+        <Route path='/' element={<Main cards={cards} isLoading={isLoading} value={value} onChange={setValue} onSubmit={handleSubmit} />} />
+        <Route path='/photos/:id' element={<Photo photos={cards} />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
     </div>
   );
 }

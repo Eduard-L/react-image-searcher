@@ -18,13 +18,13 @@ export function Main({ cards, isLoading, value, onChange, onSubmit }) {
         <>
             <Header />
             <form className='app__form' onSubmit={onSubmit}>
-                <Input value={value} onChange={onChange} />
-                <Button text='Save' />
+                <Input value={value} onChange={onChange} placeholder='Search free high-resolution photos' />
+                <Button text='Save' type='submit' />
             </form>
             <div className='app__cards'>
                 {isLoading ? <Spinner /> : cards.map((card) => {
                     return (
-                        <Card key={card.id} imgSrc={card.urls.regular} title={card.description} subtitle={card.alt_description} />
+                        <Card id={card.id} key={card.id} imgSrc={card.urls.regular} title={card.description} subtitle={card.alt_description} />
                     )
 
                 })}

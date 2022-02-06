@@ -1,0 +1,11 @@
+.Photo {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.Photo-title {
+	text-align: center;
+}
+.Photo-subtitle {
+	text-align: center;
+}
