@@ -23,3 +23,13 @@
 		flex-direction: column;
 	}
 }
+.app__image-error {
+	max-width: 300px;
+
+	margin: 100px auto;
+}
+@media screen and (max-width: 400px) {
+	.app__image-error {
+		max-width: 200px;
+	}
+}
