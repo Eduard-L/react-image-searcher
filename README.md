@@ -11,6 +11,7 @@ ______________________
 
 * In this app user can search for images by typing a keyword in the form input.
 * User can click on an image and will redirect to another Page where he able to see the image in full size. 
+* Users able to download the images. 
 * User can go back to the main page and search for more images. 
 * If there are no images for the user's keyword, he will be notified.
 _____________________
@@ -25,7 +26,7 @@ _________________________
 ## Future functionality
 * User will able to make authentication and authorization
 * Users who will log in , will able to save images/delete them.
-* Users will able to download the images. 
+
 _________________________
 
 ### You can try it [here](https://eduard-l.github.io/react-image-searcher/#/) ![icons8-hand-left-48](https://user-images.githubusercontent.com/87845853/167284178-979ae564-ac3a-40d1-aa22-3325d254bd41.png)
