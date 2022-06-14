@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-image-searcher/static/css/main.cb398bf0.css",
-    "main.js": "/react-image-searcher/static/js/main.065b48c0.js",
+    "main.css": "/react-image-searcher/static/css/main.80d97fcb.css",
+    "main.js": "/react-image-searcher/static/js/main.06eff331.js",
     "static/media/Inter-Regular.woff": "/react-image-searcher/static/media/Inter-Regular.8c206db99195777c6769.woff",
     "static/media/Inter-Regular.woff2": "/react-image-searcher/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
     "static/media/3D-LET-BRK.ttf.woff": "/react-image-searcher/static/media/3D-LET-BRK.ttf.f7267af442249d63c02b.woff",
     "static/media/search-1491.svg": "/react-image-searcher/static/media/search-1491.41698092d49ccaa73ae3.svg",
     "index.html": "/react-image-searcher/index.html",
-    "main.cb398bf0.css.map": "/react-image-searcher/static/css/main.cb398bf0.css.map",
-    "main.065b48c0.js.map": "/react-image-searcher/static/js/main.065b48c0.js.map"
+    "main.80d97fcb.css.map": "/react-image-searcher/static/css/main.80d97fcb.css.map",
+    "main.06eff331.js.map": "/react-image-searcher/static/js/main.06eff331.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb398bf0.css",
-    "static/js/main.065b48c0.js"
+    "static/css/main.80d97fcb.css",
+    "static/js/main.06eff331.js"
   ]
 }
