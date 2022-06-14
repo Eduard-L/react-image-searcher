@@ -15,7 +15,7 @@ function App() {
 
   const [searchWord, setSearchWord] = useState('welcome');
   const [cards, setCards] = useState([])
-  const [value, setValue] = useState('')
+  const [value, setValue] = useState('welcome')
   const [isLoading, setIsLoadiing] = useState(false);
   const [isCardsEmpty, setIsCardsEmpty] = useState(false)
 
